@@ -3,3 +3,4 @@
 ### Создание проекта
 1. Создал проект на Flutter
 2. Создал интерфейс по ТЗ
+![image](https://github.com/user-attachments/assets/73057f16-29d7-4de0-8687-62ddc5f795cd)
