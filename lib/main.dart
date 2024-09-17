@@ -42,22 +42,24 @@ class _LoginScreenState extends State<LoginScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
 
-                  TextField(
+                  const TextField(
                     decoration: InputDecoration(
+                      fillColor: Color.fromARGB(255, 250, 250, 250),
+                      filled: true,
                       labelText: 'Логин',
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(8.0),
-                      ),
+                      labelStyle: TextStyle(color: Colors.grey, fontSize: 18),
+                      border: InputBorder.none,
                     ),
                   ),
                   SizedBox(height: 20),
-                  TextField(
+                  const TextField(
                     obscureText: true,
                     decoration: InputDecoration(
+                      fillColor: Color.fromARGB(255, 250, 250, 250),
+                      filled: true,
                       labelText: 'Пароль',
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(8.0),
-                      ),
+                      labelStyle: TextStyle(color: Colors.grey, fontSize: 18),
+                      border: InputBorder.none,
                     ),
                   ),
                   SizedBox(height: 10),
